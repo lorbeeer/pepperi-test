@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pepperi Test</title>
+    <meta charSet="utf8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="pepperi.js"></script>
+  </head>
+  <body>
+    <div class="container">
+			<div class="content">
+				<header>
+					<h1><span>Test</span></h1>
+				</header>
+				<div class="input-wrapper">
+					<form id="addPair">
+						<label for="pair">Name/Value Pair</label>
+						<input type="text" name="pair" id="pair">
+						<button type="submit">Add</button>
+					</form>
+				</div>
+				<form id="deletePair">
+					<div class="fset-wrapper">
+						<fieldset>
+								<legend>Name/Value Pair List</legend>
+								<div id="list-wrapper">
+								</div>
+						</fieldset>
+					</div>
+					<div class="btn-wrapper">
+						<button type="button" id="sortName">Sort By Name
+						</button><button type="button" id="sortValue">Sort By Value
+						</button><button type="submit">Delete
+						<!-- </button><button type="button" id="showXML">Show XML</button> -->
+					</div>
+				</form>
+      </div><!--#content-->
+    </div><!--.container-->
+  </body>
+</html>
